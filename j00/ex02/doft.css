@@ -1,0 +1,54 @@
+body
+{
+	background-color:#505050;
+}
+
+header
+{
+}
+
+.head_class
+{
+	width:70%;
+	height:10%;
+	background-color:#909090;
+	position:absolute;
+	left:15%;
+	top:1%;
+	border-radius:10px 10px 10px 10px;
+	box-shadow:6px 6px 6px black;
+}
+
+.day_42
+{
+	height:80%;
+	position:relative;
+	left:0.5%;
+	top:5%;
+}
+
+.loupe
+{
+	position:absolute;
+	left:84%;
+	top:5.5%;
+}
+
+.reload
+{
+	height:12%;
+	float:right;
+	position:relative;
+	right:0.5%;
+	top:5%;;
+}
+
+.close
+{
+	height:12%;
+	float:right;
+	position:relative;
+	right:-0.3%;
+	top:83%;
+}
+
