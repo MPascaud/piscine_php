@@ -144,8 +144,8 @@ header
 	width:27%;
 	height:19%;
 	position:absolute;
-	left:20%;
-	top:60%;
+	left:10%;
+	top:75%;
 	border-radius:4px 4px 4px 4px;
 	box-shadow:5px 5px 5px black;
 	font-family:arial;
@@ -162,6 +162,27 @@ header
 
 .ordinateurs
 {
-	text-shadow:3px 3px 3px red;
+	text-shadow:2px 2px 3px red;
+}
+
+.italic
+{
+	font-style:italic;
+}
+
+.formulaire
+{
+	height:5px;
+	width:73%;
+	border-width:1px;
+	border-bottom-color: #eeeeee;
+	border-right-color: #eeeeee;
+}
+
+.repondre
+{
+	font-size:0.01em;
+	float:right;
+	width:25%
 }
 

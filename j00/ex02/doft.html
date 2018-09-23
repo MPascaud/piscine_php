@@ -6,7 +6,7 @@
 <!-- By: mpascaud <marvin@42.fr>                    +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
 <!-- Created: 2018/09/20 20:42:05 by mpascaud          #+#    #+#            -->
-<!-- Updated: 2018/09/22 22:03:50 by mpascaud         ###   ########.fr      -->
+<!-- Updated: 2018/09/23 16:54:53 by mpascaud         ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
@@ -20,47 +20,53 @@
 	<body>
 		<head>
 			<!--<p><img src="resources/day_of_the_42.png"></p>-->
-			<div class="head_class"><img class="day_42" width=30% src="resources/day_of_the_42.png">
-			<img class="reload" src="resources/reload.png">
-			<img class="close" src="resources/close.gif">
-			<img class="loupe" src="resources/loupe.png">
+			<div class="head_class"><img class="day_42" width=30% src="resources/day_of_the_42.png" alt="day_42" title="day_42">
+			<a href="http://www.disney.com"><img class="reload" src="resources/reload.png" alt="Recommencer au début" title="Recommencer au début"></a>
+			<a href="http://www.relaischateaux.com"><img class="close" src="resources/close.gif" alt="Déconnecter" title="Déconnecter"></a>
+			<img class="loupe" src="resources/loupe.png" alt="loupe" title="loupe">
 			</div>
 		</head>
 		<nav class="nav">
-			<img class="arrow" src="resources/arrow.png" width=50%>
-			<img class="main" src="resources/main.png" width=50%>
-			<img class="oeil" src="resources/oeil.png" width=50%>
-			<img class="outil" src="resources/outil.png" width=50%>
-			<img class="chat" src="resources/chat-icon.png" width=50%>
+			<img class="arrow" src="resources/arrow.png" width=50% alt="Avancer" title="Avancer">
+			<img class="main" src="resources/main.png" width=50% alt="Prendre" title="Prendre">
+			<img class="oeil" src="resources/oeil.png" width=50% alt="Regarder" title="Regarder">
+			<img class="outil" src="resources/outil.png" width=50% alt="Utiliser" title="Utiliser">
+			<img class="chat" src="resources/chat-icon.png" width=50% alt="Parler" title="Parler">
 		</nav>
 		<section class="section">
-			<img class="cluster" src="resources/cluster.jpg" width=100%>
+			<img class="cluster" src="resources/cluster.jpg" width=100% alt="cluster" title="cluster" usemap="links">
+			<map name="links">
+				<area shape="rect" coords="450,500,610,900" href="http://www.ikea.com" alt="ikea" title="ikea"/>
+				<area shape="rect" coords="1070,500,1700,900" href="http://www.apple.com" alt="apple" title="apple"/>
+			</map>
 		</section>
 		<aside class="aside">
-			<img class="book" src="resources/book.png" height=23%>
-			<img class="towel" src="resources/towel.png" height=13%>
+			<img class="book" src="resources/book.png" height=23% alt="book" title="book">
+			<img class="towel" src="resources/towel.png" height=13% alt="towel" title="towel">
 			<div class="wall">
 				<div class="wall2">
-					<img class="brick" src="resources/brick.jpg" width=22%>
-					<img class="brick" src="resources/brick.jpg" width=22%>
-					<img class="brick" src="resources/brick.jpg" width=22%>
-					<img class="brick" src="resources/brick.jpg" width=22%>
+					<img class="brick" src="resources/brick.jpg" width=22% alt="brick" title="brick">
+					<img class="brick" src="resources/brick.jpg" width=22% alt="brick" title="brick">
+					<img class="brick" src="resources/brick.jpg" width=22% alt="brick" title="brick">
+					<img class="brick" src="resources/brick.jpg" width=22% alt="brick" title="brick">
 				</div>
 				<div class="wall2">
-					<img class="brick" src="resources/brick.jpg" width=22%>
-					<img class="brick" src="resources/brick.jpg" width=22%>
-					<img class="brick" src="resources/brick.jpg" width=22%>
-					<img class="brick" src="resources/brick.jpg" width=22%>
+					<img class="brick" src="resources/brick.jpg" width=22% alt="brick" title="brick">
+					<img class="brick" src="resources/brick.jpg" width=22% alt="brick" title="brick">
+					<img class="brick" src="resources/brick.jpg" width=22% alt="brick" title="brick">
+					<img class="brick" src="resources/brick.jpg" width=22% alt="brick" title="brick">
 				</div>
 			</div>
 		</aside>
 		<article class="bonjour">
 			Vous <span class="gras">entrez</span> alors dans une grande piece remplie<br/> d'<span class="ordinateurs">ordinateurs</span>...<br/>
-			- Bonjour, vous &#0234tes nouveau ici ?
+			<span class="italic">- Bonjour, vous &#0234tes nouveau ici ?</span>
 			<form>
-				<input width=50px height=10px/>rbndnboed
+				<input type="text" class="formulaire">
+				<input type="submit" value="Repondre" class="repondre">
 			</form>
 		</article>
+
 	</body>
 
 
