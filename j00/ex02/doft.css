@@ -9,46 +9,159 @@ header
 
 .head_class
 {
-	width:70%;
-	height:10%;
+	width:75%;
+	height:15%;
 	background-color:#909090;
 	position:absolute;
-	left:15%;
-	top:1%;
-	border-radius:10px 10px 10px 10px;
-	box-shadow:6px 6px 6px black;
+	left:13.5%;
+	top:2%;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:5px 5px 5px black;
 }
 
 .day_42
 {
 	height:80%;
 	position:relative;
-	left:0.5%;
-	top:5%;
+	left:1%;
+	top:6.5%;
 }
 
 .loupe
 {
-	position:absolute;
-	left:84%;
-	top:5.5%;
+	height:105%;
+	float:right;
+	position:relative;
+	right:0%;
+	top:10%;
 }
 
 .reload
 {
-	height:12%;
+	height:13%;
 	float:right;
 	position:relative;
-	right:0.5%;
-	top:5%;;
+	right:0.8%;
+	top:7%;;
 }
 
 .close
 {
-	height:12%;
+	height:13%;
 	float:right;
 	position:relative;
-	right:-0.3%;
-	top:83%;
+	right:-0.6%;
+	top:81%;
+}
+
+.nav
+{
+	width:7.4%;
+	height:45%;
+	background-color:#909090;
+	position:absolute;
+	left:15%;
+	top:19.7%;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:5px 5px 5px black;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.oeil
+{
+	border:2px red solid;
+	border-radius:3px;
+}
+
+.section
+{
+	background-color:#909090;
+	width:53.5%;
+	height:65%;
+	position:absolute;
+	left:24%;
+	top:19.7%;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:5px 5px 5px black;
+	display:flex;
+	padding:4px;
+}
+
+.aside
+{
+	background-color:#909090;
+	width:7.4%;
+	height:45%;
+	position:absolute;
+	left:80%;
+	top:19.7%;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:5px 5px 5px black;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+	padding-top:7px;
+	padding-bottom:4px;
+
+}
+
+.towel
+{
+	position:relative;
+	top:2.5%;
+}
+
+.wall
+{
+	display:flex;
+	flex-direction:column;
+	position:relative;
+	left:7%;
+	top:3.5%;
+	min-height:1%;
+}
+
+.wall2
+{
+}
+
+
+.brick
+{
+	float:left;
+	min-height:250%;
+}
+
+.bonjour
+{
+	background-color:#88ff89;
+	width:27%;
+	height:19%;
+	position:absolute;
+	left:20%;
+	top:60%;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:5px 5px 5px black;
+	font-family:arial;
+	font-size:7px;
+	padding:0.5%;
+	letter-spacing:0.4px;
+}
+
+.gras
+{
+	font-family:Times;
+	font-size:15px;
+}
+
+.ordinateurs
+{
+	text-shadow:3px 3px 3px red;
 }
 
